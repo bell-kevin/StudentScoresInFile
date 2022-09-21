@@ -12,19 +12,27 @@ import java.io.*;
 public class Scores implements Serializable {
 
     static double getLowScore(double lowScore) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
     }
 
     static double getHighScore(double highScore) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
     }
 
-   ArrayList<String> students = new ArrayList<>();
+    ArrayList<String> students = new ArrayList<>();
+    ArrayList<Double> scores = new ArrayList<>();
 
 //******************************************************************************
     public Scores(String[] names) {
         for (int i = 0; i < names.length; i++) {
             students.add(names[i]);
+        } // end for loop
+    } // end constructor
+//******************************************************************************
+
+    public Scores(double[] scores) {
+        for (int i = 0; i < scores.length; i++) {
+            scores.add(scores[i]);
         } // end for loop
     } // end constructor
 //******************************************************************************
