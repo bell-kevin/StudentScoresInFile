@@ -1,0 +1,2 @@
+# StudentScoresInFile
+Using the java.io.* library for stream file processing, write an application that does 3 things: it asks the user for input of names and scores and writes that data to a file, with a name on one line and the score on the next; it reads that same data file and prints the data; and it finds the low, high, and average of the scores. After the file has been read, calculate and display the lowest score, highest score, and average score.
