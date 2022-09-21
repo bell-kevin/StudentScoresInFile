@@ -11,13 +11,9 @@ import java.io.*;
 
 public class Scores implements Serializable {
 
-    static double getLowScore(double lowScore) {
+    //static double getLowScore(double lowScore) {}
 
-    }
-
-    static double getHighScore(double highScore) {
-
-    }
+    //static double getHighScore(double highScore) {}
 
     ArrayList<String> students = new ArrayList<>();
     ArrayList<Double> scores = new ArrayList<>();
@@ -32,7 +28,7 @@ public class Scores implements Serializable {
 
     public Scores(double[] scores) {
         for (int i = 0; i < scores.length; i++) {
-            scores.add(scores[i]);
+            //scores.add(scores[i]);
         } // end for loop
     } // end constructor
 //******************************************************************************
