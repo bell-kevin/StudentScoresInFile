@@ -11,6 +11,14 @@ import java.io.*;
 
 public class Scores implements Serializable {
 
+    static double getLowScore(double lowScore) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    static double getHighScore(double highScore) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
    ArrayList<String> students = new ArrayList<>();
 
 //******************************************************************************
