@@ -6,22 +6,36 @@
  **************************************************************************** */
 package studentscoresinfile;
 
-class Scores {
+import java.util.*;
+import java.io.*;
 
-    static double getLowScore(double lowScore) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+public class Scores implements Serializable {
 
-    static double getHighScore(double highScore) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   ArrayList<String> students = new ArrayList<>();
 
-    static double getAverageScore(double averageScore) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+//******************************************************************************
+    public Scores(String[] names) {
+        for (int i = 0; i < names.length; i++) {
+            students.add(names[i]);
+        } // end for loop
+    } // end constructor
+//******************************************************************************
 
-    Scores(double lowScore) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    public void display() {
+        for (int i = 0; i < students.size(); i++) {
+            System.out.println(students.get(i) + " ");
+        } // end for loop
+        System.out.println();
+    } // end display method
+//******************************************************************************
 
-}
+    public void removeStudent(int index) {
+        students.remove(index);
+    } // end removeStudent method
+//******************************************************************************
+
+    public void addStudent(String name) {
+        students.add(name);
+    } // end removeStudent method
+//******************************************************************************
+} // end StudentList class
