@@ -22,7 +22,9 @@ Hint: Since you know the first line contains a name, and the second line contain
 
 Run the project once to match the sample session and take a screenshot. Run it again with different data and take a screenshot.
 
+ # Output
  
+ ![output](https://github.com/bell-kevin/StudentScoresInFile/blob/main/sendHelp.PNG)
 
 Submission: the specified screenshots (of execution of the program and successful unit tests) and the root folder for the project
 
