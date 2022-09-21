@@ -14,7 +14,7 @@ Using the java.io.* library for stream file processing, write an application tha
 
 Here is the sample session:
 
-m3-2220-studentScores.PNG
+![example](https://github.com/bell-kevin/StudentScoresInFile/blob/main/m3-2220-studentScores.PNG)
 
 Note: You cannot determine the low and high scores and calculate the average in the first part of the project, when the user types the input and you write it to the file. This work must be done in the second part, when you are reading the file.
 
