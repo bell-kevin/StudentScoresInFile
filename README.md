@@ -1,6 +1,6 @@
 # StudentScoresInFile
 
-WARNING: THIS FILE IS NOT COMPLETE AND HAS ERRORS
+WARNING: THIS FILE IS NOT COMPLETE AND HAS MANY ERRORS
 
 In Competency Exercises, you demonstrate your skill and ability to use the programming principles you've learned in the current and previous modules. You must complete this assignment by yourself, much like a module exam. You can ask instructors for clarification about the project -- you can not ask instructors or other students for help with logic or coding. If you are struggling with the project, you can look at previous assignments where you did similar work, and you can review the pertinent sections in the book.
 
